@@ -1,0 +1,40 @@
+Python 3.14.4 (v3.14.4:23116f998f6, Apr  7 2026, 09:45:22) [Clang 17.0.0 (clang-1700.6.4.2)] on darwin
+Enter "help" below or click "Help" above for more information.
+>>> a=13
+>>> type(a)
+<class 'int'>
+>>> b=13.5
+>>> type(b)
+<class 'float'>
+>>> c="Arshi"
+>>> type(c)
+<class 'str'>
+>>> d='thota'
+>>> type(d)
+<class 'str'>
+>>> e='''python'''
+>>> type(e)
+<class 'str'>
+>>> f=3+1j
+>>> type(f)
+<class 'complex'>
+>>> g=3j+3
+>>> type(g)
+<class 'complex'>
+>>> h=13j
+>>> type(h)
+<class 'complex'>
+>>> i=13j+15j
+>>> type(i)
+<class 'complex'>
+>>> j=12+13i
+SyntaxError: invalid decimal literal
+>>> k=True
+>>> type(k)
+<class 'bool'>
+>>> l=False
+>>> type(l)
+<class 'bool'>
+>>> m=13J
+>>> type(m)
+<class 'complex'>
